@@ -15,9 +15,9 @@ module tb();
     $display("THE DEFAULT VALUES");
     $display("bit:%d, byte:%d, shortint:%d, int:%d, longint:%d",a,b,c0,d,e);
     c=-5;
-    $display("c=%d",c);
+    $display("UNSIGNED VALUE OF SHORTINT c=%d",c);
     c0=-5;
-    $display("c0=%d",c0);
+    $display("DEFAULT SIGNED VALUE OF SHORTINT c0=%d",c0);
     
    
   end
